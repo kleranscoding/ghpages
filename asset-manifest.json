@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ghpages/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/ghpages/static/js/main.13d27736.chunk.js",
+    "main.js.map": "/ghpages/static/js/main.13d27736.chunk.js.map",
+    "runtime-main.js": "/ghpages/static/js/runtime-main.065f4dcf.js",
+    "runtime-main.js.map": "/ghpages/static/js/runtime-main.065f4dcf.js.map",
+    "static/js/2.939cc390.chunk.js": "/ghpages/static/js/2.939cc390.chunk.js",
+    "static/js/2.939cc390.chunk.js.map": "/ghpages/static/js/2.939cc390.chunk.js.map",
+    "static/js/3.9c83fce4.chunk.js": "/ghpages/static/js/3.9c83fce4.chunk.js",
+    "static/js/3.9c83fce4.chunk.js.map": "/ghpages/static/js/3.9c83fce4.chunk.js.map",
+    "index.html": "/ghpages/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/ghpages/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.939cc390.chunk.js.LICENSE.txt": "/ghpages/static/js/2.939cc390.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.065f4dcf.js",
+    "static/js/2.939cc390.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.13d27736.chunk.js"
+  ]
+}
