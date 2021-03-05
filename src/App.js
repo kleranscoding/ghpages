@@ -1,17 +1,20 @@
 import './App.css';
 
+const baseURL = process.env.PUBLIC_URL;
+
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={process.env.PUBLIC_URL+"/img/inout.JPG"} style={{width:"480px", height:"320px"}} alt="in-out"/>
+        <img src={baseURL+"/img/inout.JPG"} style={{width:"480px", height:"320px"}} alt="in-out"/>
         <p>
           {/* Edit <code>src/App.js</code> and save to reload. */}
-          {process.env.PUBLIC_URL}
+          {baseURL }
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href={baseURL+"/"}
           target="_blank"
           rel="noopener noreferrer"
         >
