@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="/img/inout.JPG" style={{width:"480px", height:"320px"}} alt="in-out"/>
+        <img src={process.env.PUBLIC_URL+"/img/inout.JPG"} style={{width:"480px", height:"320px"}} alt="in-out"/>
         <p>
           {/* Edit <code>src/App.js</code> and save to reload. */}
           {process.env.PUBLIC_URL}
