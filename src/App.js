@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 const baseURL = process.env.PUBLIC_URL;
@@ -27,7 +28,7 @@ function Home() {
 
 const About = () => <h3> About me </h3>;
 
-const RandomComp = () => <p> {Math.round(Math.random()*10)} </p>;
+const RandomComp = () => <React.Fragment> <h3> Your lucky number: <p> {Math.round(Math.random()*100)} </p> </h3> </React.Fragment>;
 
 
 function App() {
