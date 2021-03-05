@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 const baseURL = process.env.PUBLIC_URL;
 
@@ -13,6 +13,8 @@ function Nav() {
     </nav>
   );
 }
+
+const NotFound = () => <h1>Not Found</h1>
 
 function Home() {
   return (
@@ -28,7 +30,7 @@ function Home() {
 
 const About = () => <h3> About me </h3>;
 
-const RandomComp = () => <React.Fragment> <h3> Your lucky number: <p> {Math.round(Math.random()*100)} </p> </h3> </React.Fragment>;
+const RandomComp = () => <React.Fragment> <h3> Your lucky number: <p> {Math.round(Math.random() * 100)} </p> </h3> </React.Fragment>;
 
 
 function App() {
@@ -39,10 +41,12 @@ function App() {
         <Nav />
 
         <div className="App-body">
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/random" component={RandomComp} />
-          <Route path="/*" />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/random" component={RandomComp} />
+            <Route component={NotFound} />
+          </Switch>
         </div>
       </BrowserRouter>
 
