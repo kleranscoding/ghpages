@@ -1,0 +1,21 @@
+[
+  {
+    "src": "/img/inout.JPG",
+    "className": "img-gallery-item"
+  },
+  {
+    "src": "/img/inout.JPG",
+    "style": { "transform": "scaleX(-1)"}, 
+    "className": "img-gallery-item"
+  },
+  {
+    "src": "/img/inout.JPG",
+    "style": { "filter": "grayscale(1)"}, 
+    "className": "img-gallery-item"
+  },
+  {
+    "src": "/img/inout.JPG",
+    "style": { "transform": "scaleY(-1)"}, 
+    "className": "img-gallery-item"
+  }
+]

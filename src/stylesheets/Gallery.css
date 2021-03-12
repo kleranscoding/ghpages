@@ -1,0 +1,11 @@
+.img-gallery-item {
+  margin: 5px;
+  height: 320px; 
+  width: 480px;
+}
+
+@media only screen and (max-width: 500px) {
+  .img-gallery-item {
+    width: 80vw;
+  }
+}
