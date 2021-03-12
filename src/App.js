@@ -33,12 +33,16 @@ const Footer = () => (
 
 const About = () => <div className="about-body-container" style={{flexGrow: 1}}><h3> About... </h3></div>;
 
-const RandomComp = () => (
-  <div className="random-body-container" style={{flexGrow: 1}}> 
-    <h3> Your lucky number: </h3>
-    <p> {Math.round(Math.random() * 100)} </p>  
-  </div>
-);
+const RandomComp = () => {
+  const [rndNum, setRndNum] = React.useState(Math.random() * 100);
+  const genRndNum = () => setRndNum(Math.random() * 100);
+  return (
+    <div className="random-body-container" style={{flexGrow: 1}}> 
+      <h3> Your lucky <span className="random-num-btn" onClick={genRndNum}>number </span>: </h3>
+      <p> {Math.round(rndNum)} </p>  
+    </div>
+  );
+};
 
 const NotFound = () => <h1>Not Found</h1>;
 

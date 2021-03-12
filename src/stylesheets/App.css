@@ -29,6 +29,16 @@
   color: #61dafb;
 }
 
+.random-num-btn {
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  padding: 5px;
+}
+
+.random-num-btn:hover {
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
