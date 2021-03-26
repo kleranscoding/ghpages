@@ -17,5 +17,24 @@
     "src": "/img/inout.JPG",
     "style": { "transform": "scaleY(-1)"}, 
     "className": "img-gallery-item"
+  },
+  {
+    "src": "/img/dubrovnik.jpg",
+    "className": "img-gallery-item"
+  },
+  {
+    "src": "/img/dubrovnik.jpg",
+    "style": { "filter": "grayscale(1)"}, 
+    "className": "img-gallery-item"
+  },
+  {
+    "src": "/img/dubrovnik.jpg",
+    "style": { "transform": "scaleX(-1)"}, 
+    "className": "img-gallery-item"
+  },
+  {
+    "src": "/img/dubrovnik.jpg",
+    "style": { "transform": "scaleY(-1)"}, 
+    "className": "img-gallery-item"
   }
 ]
